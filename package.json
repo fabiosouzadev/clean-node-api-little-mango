@@ -15,5 +15,8 @@
     "js"
   ],
   "author": "Fabio Souza <fabiosouzadev>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.1"
+  }
 }
