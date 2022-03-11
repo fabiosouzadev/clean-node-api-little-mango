@@ -1,23 +1,3 @@
 # README
 `````# #jj 33
-
-```mermaid
-graph TD
-
-    A[SignUpController] --> B(Express)
-    A[SignUpController] --> C(MongoDB)
-    A[SignUpController] --> D(BCrypt)
-    A[SignUpController] --> E(Validator)
-```
-
-```mermaid
-graph LR
-
-A(Start)
-A --> B[Look for an item]
-B --> C{Did you find it?}
-C -->|Yes| D(Stop looking)
-C -->|No| E{Do you need it?}
-E -->|Yes| B
-E -->|No| D
-```
+[![Dependencies](https://mermaid.ink/img/pako:eNqF0L0KgzAQB_BXCTdZ0BfIUKjGsVM_lqZDMKcG8kVMoCK-eyNt13rDcRw__nC3QOckAoUhCD-SK-OW5Do9LmqwN984G4PTGsOTVNWR1EX78gGn6fDfNcXZ2cGxesexom7C7OMOa4u70EqK6EKWH7t1KMFgMELJfMGybTjEEQ1yoHmU2IukIwdu10yTzwnYSpVjgPZCT1iCSNFdZtsBjSHhDzEl8kPMV61vhXdgfQ)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqF0L0KgzAQB_BXCTdZ0BfIUKjGsVM_lqZDMKcG8kVMoCK-eyNt13rDcRw__nC3QOckAoUhCD-SK-OW5Do9LmqwN984G4PTGsOTVNWR1EX78gGn6fDfNcXZ2cGxesexom7C7OMOa4u70EqK6EKWH7t1KMFgMELJfMGybTjEEQ1yoHmU2IukIwdu10yTzwnYSpVjgPZCT1iCSNFdZtsBjSHhDzEl8kPMV61vhXdgfQ)
