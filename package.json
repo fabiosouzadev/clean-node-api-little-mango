@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+   "prepare": "husky install"
+   "test": "jest"
+   "test:staged": "jest"
   },
   "keywords": [
     "node",
