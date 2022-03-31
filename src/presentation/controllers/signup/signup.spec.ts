@@ -11,6 +11,7 @@ import {
   AccountModel
 } from './signup-protocols'
 
+
 interface sutTypes {
   sut: SignUpController
   emailValidatorStub: EmailValidator
