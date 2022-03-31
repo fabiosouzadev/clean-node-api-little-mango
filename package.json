@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "prepare": "husky install",
-   "test": "jest --watchAll",
-   "test:staged": "jest"
+    "prepare": "husky install",
+    "test": "jest --silent --noStackTrace --runInBand --no-cache",
+    "test:unit": "npm test -- --watch -c jest-unit-config.js",
+    "test:integration": "npm test -- --watch -c jest-integration-config.js",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
   },
+  "lint-staged": {},
   "keywords": [
     "node",
     "manguinho",
@@ -53,5 +57,14 @@
     "supertest": "^6.1.6",
     "ts-jest": "^27.0.5",
     "typescript": "^4.4.3"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "_moduleAliases": {
+    "@": "dist"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }
