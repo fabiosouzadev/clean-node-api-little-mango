@@ -4,13 +4,13 @@ import {
   InvalidParamError,
   ServerError
 } from '../../errors'
+
 import {
-  EmailValidator,
   AddAccount,
   AddAccountModel,
-  AccountModel
+  AccountModel,
+  EmailValidator
 } from './signup-protocols'
-
 
 interface sutTypes {
   sut: SignUpController
